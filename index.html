@@ -1,0 +1,677 @@
+```html
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schluss mit Beziehungs-Desastern! Astro-Notfall-Checkliste GRATIS ❤️‍🩹✨</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); } /* Existing blue/purple gradient */
+        .card-shadow { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
+        .btn-hover:hover { transform: translateY(-2px); transition: all 0.3s ease; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05); }
+        .pulse-animation { animation: pulse 2s infinite; }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        /* Accent color: Fuchsia/Pink */
+        .accent-bg { background-color: #d946ef; } /* fuchsia-500 */
+        .accent-text { color: #f0abfc; } /* fuchsia-300 for lighter text on dark bg */
+        .accent-text-darker { color: #c026d3; } /* fuchsia-600 for text on light bg */
+        .feature-icon-bg-1 { background-color: #fda4af; } /* rose-300 */
+        .feature-icon-bg-2 { background-color: #f0abfc; } /* fuchsia-300 */
+        .feature-icon-bg-3 { background-color: #c4b5fd; } /* violet-300 */
+    </style>
+</head>
+<body class="bg-gray-50">
+    
+    <!-- Hero Section -->
+    <div class="gradient-bg min-h-screen flex items-center justify-center px-4 py-12 md:py-16">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                
+                <!-- Left Column - Content -->
+                <div class="text-white">
+                    <div class="mb-6">
+                        <span class="bg-fuchsia-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+                            ✨ GRATIS CHECKLISTE
+                        </span>
+                    </div>
+                    
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                        <span class="block">Schluss mit</span>
+                        <span class="block accent-text">Beziehungs-Desastern!</span>
+                        <span class="block">Deine Astro-Notfall-Checkliste für die Liebe ❤️‍🩹✨</span>
+                    </h1>
+                    
+                    <p class="text-xl mb-8 text-gray-200">
+                        Deine ultimative Anleitung, um Liebeskummer zu vermeiden und endlich harmonische Beziehungen anzuziehen – mit der Kraft der Sterne! Schluss mit Fehlentscheidungen und toxischen Mustern.
+                    </p>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center">
+                            <i class="fas fa-star-of-life text-pink-400 mr-3 text-xl"></i>
+                            <span>Sofortige Klarheit bei Beziehungskrisen</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-eye text-pink-400 mr-3 text-xl"></i>
+                            <span>Erkenne kosmische Warnsignale frühzeitig</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-users-rays text-pink-400 mr-3 text-xl"></i>
+                            <span>Finde heraus, wer wirklich zu dir passt (Astro-Kompatibilität)</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-lightbulb text-pink-400 mr-3 text-xl"></i>
+                            <span>Praktische Tipps für mehr Liebesglück & Harmonie</span>
+                        </div>
+                    </div>
+                    
+                    <div class="text-2xl font-bold accent-text">
+                        100% KOSTENLOS - Keine versteckten Kosten!
+                    </div>
+                </div>
+                
+                <!-- Right Column - Form -->
+                <div class="bg-white rounded-2xl p-8 card-shadow">
+                    <div class="text-center mb-6">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">
+                            Hol dir deine Astro-Notfall-Checkliste!
+                        </h3>
+                        <p class="text-gray-600">
+                            Trage deine Daten ein und erhalte sofort Zugang zur Checkliste.
+                        </p>
+                    </div>
+                    
+                    <form id="leadForm" class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">
+                                <i class="fas fa-user mr-2 text-gray-500"></i>Vollständiger Name
+                            </label>
+                            <input type="text" id="name" name="name" required
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-fuchsia-500 focus:border-transparent transition duration-200"
+                                   placeholder="Dein vollständiger Name">
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">
+                                <i class="fas fa-envelope mr-2 text-gray-500"></i>E-Mail Adresse
+                            </label>
+                            <input type="email" id="email" name="email" required
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-fuchsia-500 focus:border-transparent transition duration-200"
+                                   placeholder="deine.email@beispiel.de">
+                        </div>
+                        
+                        <!-- Hidden Fields-->
+                        <input type="hidden" id="language" name="language" value="German">
+                        <input type="hidden" name="book_title" value="Beziehungsastrologie für die Nur Katastrophen Anziehen: Alle Geheimnisse um NICHT Immer den Falschen Partner zu Wählen zwischen Inkompatiblen Zeichen, Beziehungskarma und Falschem Timing">
+                        <input type="hidden" name="main_category" value="Spiritual">
+                        <input type="hidden" name="author" value="Sara Y.">
+                        <input type="hidden" name="number_title" value="27. Relationship Astrology for Those Who Only Attract Disasters">
+                        <input type="hidden" name="number_title_language" value="27. Relationship Astrology for Those Who Only Attract Disasters (German)">
+                        <input type="hidden" name="extra_folder_link" value="https://drive.google.com/drive/folders/1_8YyM52Gdo1lCbbRDHdtu43QKX_C5XP4">
+                        <input type="hidden" name="extra_pdf_link" value="https://drive.google.com/uc?export=download&id=19JjoiBcp2fJukMQWPeFsy2VqNP_agLyS">
+                        <input type="hidden" name="review_link" value="https://pxl.to/27-bfdnka-sy-de-review">
+
+                        <button type="submit" 
+                                class="w-full bg-gradient-to-r from-pink-600 to-purple-600 text-white font-bold py-4 px-6 rounded-lg btn-hover pulse-animation shadow-lg">
+                            <i class="fas fa-wand-sparkles mr-2"></i>
+                            JETZT GRATIS CHECKLISTE SICHERN!
+                        </button>
+                    </form>
+                    
+                    <div class="mt-6 text-center">
+                        <p class="text-xs text-gray-500">
+                            <i class="fas fa-lock mr-1"></i>
+                            Deine Daten sind sicher und werden niemals an Dritte weitergegeben.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Features Section -->
+    <div class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">
+                    Das erwartet dich in deiner Astro-Checkliste ❤️‍🩹
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Ein praktischer Leitfaden, um mit kosmischer Weisheit die Liebe neu zu entdecken und Beziehungsfallen zu umgehen.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6 rounded-lg bg-rose-50 shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 feature-icon-bg-1 rounded-full flex items-center justify-center mx-auto mb-4 shadow-inner">
+                        <i class="fas fa-star-and-crescent text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-rose-700">Kosmische Kompatibilität</h3>
+                    <p class="text-gray-600">
+                        Finde heraus, welche Sternzeichen wirklich harmonieren und wie du Beziehungskarma entschlüsselst, um typische Fehler zu vermeiden.
+                    </p>
+                </div>
+                
+                <div class="text-center p-6 rounded-lg bg-fuchsia-50 shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 feature-icon-bg-2 rounded-full flex items-center justify-center mx-auto mb-4 shadow-inner">
+                        <i class="fas fa-heart-pulse text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-fuchsia-700">Notfall-Strategien</h3>
+                    <p class="text-gray-600">
+                        Konkrete Astro-Tipps, um Beziehungskrisen zu meistern, emotionale Fallstricke zu erkennen und kluge Entscheidungen zu treffen.
+                    </p>
+                </div>
+                
+                <div class="text-center p-6 rounded-lg bg-violet-50 shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <div class="w-16 h-16 feature-icon-bg-3 rounded-full flex items-center justify-center mx-auto mb-4 shadow-inner">
+                        <i class="fas fa-magic text-white text-3xl"></i> <!-- Changed from fa-wand-sparkles to fa-magic -->
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-violet-700">Liebesglück Anziehen</h3>
+                    <p class="text-gray-600">
+                        Lerne, wie du die Sterne nutzt, um positive Energien anzuziehen, dein Selbstvertrauen zu stärken und deine Traumbeziehung zu gestalten.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Testimonials Section -->
+    <div class="py-20 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">
+                    Das sagen begeisterte Leserinnen ✨
+                </h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg card-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-fuchsia-500 text-white rounded-full flex items-center justify-center mr-4 font-bold text-xl">
+                            L
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Lena M.</h4>
+                            <p class="text-gray-600 text-sm">Endlich Klarheit gefunden</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">
+                        "Diese Checkliste war ein Augenöffner! Ich habe endlich verstanden, warum meine bisherigen Beziehungen gescheitert sind. Die Astro-Tipps sind Gold wert und so einfach umzusetzen!"
+                    </p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg card-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-pink-500 text-white rounded-full flex items-center justify-center mr-4 font-bold text-xl">
+                            S
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800">Sophia K.</h4>
+                            <p class="text-gray-600 text-sm">Mehr Selbstvertrauen in der Liebe</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">
+                        "Ich fühle mich viel sicherer in der Partnerwahl. Die Checkliste hat mir geholfen, toxische Muster zu erkennen und auf mein Herz UND die Sterne zu hören. Absolute Empfehlung!"
+                    </p>
+                    <div class="mt-4 text-yellow-400">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Final CTA -->
+    <div class="gradient-bg py-20">
+        <div class="max-w-4xl mx-auto text-center px-4">
+            <h2 class="text-3xl font-bold text-white mb-6">
+                Schluss mit dem Liebes-Chaos! Hol dir jetzt deine Rettung. ❤️‍🩹
+            </h2>
+            <p class="text-xl text-gray-200 mb-8">
+                Tausende haben ihre Beziehungen bereits transformiert. Werde auch du zur Meisterin deines Liebeslebens – mit deiner persönlichen Astro-Notfall-Checkliste!
+            </p>
+            <a href="#leadForm" class="inline-block bg-fuchsia-500 text-white font-bold py-4 px-8 rounded-lg btn-hover text-lg shadow-xl">
+                <i class="fas fa-gift mr-2"></i>
+                JA, ICH WILL DIE GRATIS CHECKLISTE!
+            </a>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p>&copy; 2024 Astro-Notfall-Checkliste. Alle Rechte vorbehalten.</p>
+            <p class="text-gray-400 text-sm mt-2">
+                <i class="fas fa-shield-alt mr-1"></i>
+                Deine Daten sind sicher und geschützt.
+            </p>
+        </div>
+    </footer>
+
+<script>
+    document.getElementById('leadForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        
+        const submitButton = e.target.querySelector('button[type="submit"]');
+        const originalButtonHTML = submitButton.innerHTML; // Store full HTML
+        const userEmail = document.getElementById('email').value;
+        
+        // Show loading state
+        submitButton.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>SENDET...';
+        submitButton.disabled = true;
+        
+        const formData = {
+            name: document.getElementById('name').value,
+            email: userEmail,
+            language: document.getElementById('language').value,
+            book_title: document.querySelector('input[name="book_title"]').value,
+            main_category: document.querySelector('input[name="main_category"]').value,
+            author: document.querySelector('input[name="author"]').value,
+            number_title: document.querySelector('input[name="number_title"]').value,
+            number_title_language: document.querySelector('input[name="number_title_language"]').value,
+            extra_folder_link: document.querySelector('input[name="extra_folder_link"]').value,
+            extra_pdf_link: document.querySelector('input[name="extra_pdf_link"]').value,
+            review_link: document.querySelector('input[name="review_link"]').value
+        };
+        
+        try {
+            const response = await fetch('https://hook.integrator.boost.space/mqntylhrehljw4p5tkxjpxj28icglsot', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData)
+            });
+            
+            if (response.ok) {
+                // Show success - Email sent
+                submitButton.innerHTML = '<i class="fas fa-envelope-circle-check mr-2"></i>E-MAIL VERSENDET!';
+                submitButton.classList.remove('from-pink-600', 'to-purple-600');
+                submitButton.classList.add('bg-green-500');
+                
+                showEmailSuccessMessage(userEmail); // Show the on-page success message
+                hideForm(); // Hide the form
+
+                // Redirect after showing the success message and a short delay
+                setTimeout(() => {
+                    window.location.href = 'https://drive.google.com/uc?export=download&id=19JjoiBcp2fJukMQWPeFsy2VqNP_agLyS';
+                }, 4000); // 4 seconds delay to read a bit of the success message
+                
+            } else {
+                // Handle server errors
+                const errorData = await response.json().catch(() => ({}));
+                console.error('Server error:', response.status, errorData);
+                throw new Error(`Server error: ${response.status}`);
+            }
+            
+        } catch (error) {
+            console.error('Submission error:', error);
+            
+            // Show error state
+            submitButton.innerHTML = '<i class="fas fa-exclamation-triangle mr-2"></i>FEHLER - ERNEUT VERSUCHEN';
+            submitButton.classList.remove('from-pink-600', 'to-purple-600');
+            submitButton.classList.add('bg-red-500');
+            
+            // Reset button after delay
+            setTimeout(() => {
+                submitButton.innerHTML = originalButtonHTML;
+                submitButton.disabled = false;
+                submitButton.classList.remove('bg-red-500');
+                submitButton.classList.add('from-pink-600', 'to-purple-600');
+            }, 4000);
+        }
+    });
+
+    // Function to show email success message
+    function showEmailSuccessMessage(email) {
+        const formContainer = document.getElementById('leadForm').parentElement;
+        
+        // Remove existing success message if any
+        const existingSuccessMessage = document.getElementById('successMessage');
+        if (existingSuccessMessage) {
+            existingSuccessMessage.remove();
+        }
+
+        // Create success message container
+        const successMessage = document.createElement('div');
+        successMessage.id = 'successMessage';
+        successMessage.className = 'mt-6 p-8 bg-gradient-to-r from-green-50 to-blue-50 border-2 border-green-300 rounded-2xl text-center animate-fadeIn';
+        successMessage.innerHTML = `
+            <div class="text-gray-800">
+                <div class="mb-6">
+                    <i class="fas fa-envelope-circle-check text-6xl text-green-500 mb-4 pulse-animation"></i>
+                </div>
+                
+                <h3 class="text-2xl font-bold mb-4 text-green-800">
+                    🎉 Perfekt! Prüfe deine E-Mails
+                </h3>
+                
+                <div class="bg-white p-4 rounded-lg border border-gray-200 mb-6 shadow-sm">
+                    <p class="text-lg mb-2">
+                        Deine <strong>Astro-Notfall-Checkliste</strong> ❤️‍🩹✨ wurde gesendet an:
+                    </p>
+                    <p class="text-xl font-semibold text-fuchsia-600 break-all">
+                        📧 ${email}
+                    </p>
+                </div>
+                
+                <p class="text-md mb-6 text-gray-700">Du wirst in Kürze zum direkten Download weitergeleitet...</p>
+
+                <div class="grid md:grid-cols-2 gap-4 mb-6">
+                    <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-200">
+                        <i class="fas fa-clock text-yellow-600 mb-2"></i>
+                        <h4 class="font-semibold text-yellow-800 mb-1">Sofortige Zustellung</h4>
+                        <p class="text-sm text-yellow-700">E-Mail sollte in 2-3 Minuten ankommen</p>
+                    </div>
+                    
+                    <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                        <i class="fas fa-download text-blue-600 mb-2"></i>
+                        <h4 class="font-semibold text-blue-800 mb-1">Direkter Download</h4>
+                        <p class="text-sm text-blue-700">Link auch in der E-Mail & bald hier!</p>
+                    </div>
+                </div>
+                
+                <div class="bg-red-50 p-4 rounded-lg border border-red-200 mb-6">
+                    <h4 class="font-semibold text-red-800 mb-2">
+                        <i class="fas fa-search mr-2"></i>E-Mail nicht sichtbar?
+                    </h4>
+                    <div class="text-sm text-red-700 space-y-1">
+                        <p>✓ <strong>Spam/Junk</strong>-Ordner prüfen</p>
+                        <p>✓ Suche nach "<strong>Astro-Notfall-Checkliste</strong>" im Posteingang</p>
+                        <p>✓ <strong>Werbung</strong>-Tab prüfen (Gmail)</p>
+                    </div>
+                </div>
+                
+                <div class="text-sm text-gray-600">
+                    <p class="mb-2">
+                        <i class="fas fa-shield-alt mr-2 text-green-500"></i>
+                        E-Mail sicher versendet • Datenschutz garantiert
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mt-4">
+                        <button onclick="showManualDownload()" class="text-blue-600 hover:text-blue-800 underline font-semibold">
+                            <i class="fas fa-life-ring mr-1"></i>
+                            Probleme mit der E-Mail?
+                        </button>
+                        
+                        <button id="resendButton" onclick="resendEmail()" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-200">
+                            <i class="fas fa-paper-plane mr-2"></i>
+                            E-Mail erneut senden
+                        </button>
+                    </div>
+                </div>
+            </div>
+        `;
+        
+        formContainer.appendChild(successMessage);
+        
+        // Scroll to success message
+        setTimeout(() => {
+            successMessage.scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'center' 
+            });
+        }, 500);
+    }
+
+    // Function to hide the form after successful submission
+    function hideForm() {
+        const form = document.getElementById('leadForm');
+        form.style.transition = 'opacity 0.5s ease, height 0.5s ease, margin 0.5s ease, padding 0.5s ease';
+        form.style.opacity = '0';
+        form.style.pointerEvents = 'none';
+        form.style.height = '0';
+        form.style.marginTop = '0';
+        form.style.marginBottom = '0';
+        form.style.padding = '0';
+        // Also hide the form's title and subtitle if they are outside the form tag
+        const formTitle = form.previousElementSibling.previousElementSibling; // Assuming h3 is two siblings up
+        const formSubtitle = form.previousElementSibling; // Assuming p is one sibling up
+        if(formTitle) formTitle.style.display = 'none';
+        if(formSubtitle) formSubtitle.style.display = 'none';
+    }
+
+    // Function to show manual download option
+    function showManualDownload() {
+        const successMessage = document.getElementById('successMessage');
+        let manualDownloadDiv = document.getElementById('manualDownloadSection');
+        if (manualDownloadDiv) manualDownloadDiv.remove(); // Remove if already exists
+
+        manualDownloadDiv = document.createElement('div');
+        manualDownloadDiv.id = 'manualDownloadSection';
+        manualDownloadDiv.className = 'mt-4 p-4 bg-orange-50 border border-orange-300 rounded-lg animate-fadeIn';
+        manualDownloadDiv.innerHTML = `
+            <h4 class="font-semibold text-orange-800 mb-3">
+                <i class="fas fa-hand-point-right mr-2"></i>
+                Notfall Manueller Download
+            </h4>
+            <p class="text-orange-700 mb-3 text-sm">
+                Falls die E-Mail nicht ankommt oder die Weiterleitung fehlschlägt, kannst du die Checkliste direkt hier herunterladen:
+            </p>
+            <a href="${document.querySelector('input[name="extra_pdf_link"]').value}" 
+               target="_blank" 
+               class="inline-block bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition duration-200 btn-hover">
+                <i class="fas fa-download mr-2"></i>
+                Checkliste jetzt herunterladen
+            </a>
+            <p class="text-xs text-orange-600 mt-2">
+                * Öffnet sich in einem neuen Fenster
+            </p>
+        `;
+        successMessage.appendChild(manualDownloadDiv);
+        manualDownloadDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    // Function to resend email (calls webhook again)
+    async function resendEmail() {
+        const button = document.getElementById('resendButton');
+        if (!button) return;
+        const originalText = button.innerHTML;
+        
+        button.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>Erneut senden...';
+        button.disabled = true;
+        
+        const formData = {
+            name: document.getElementById('name').value,
+            email: document.getElementById('email').value,
+            language: document.getElementById('language').value,
+            book_title: document.querySelector('input[name="book_title"]').value,
+            main_category: document.querySelector('input[name="main_category"]').value,
+            author: document.querySelector('input[name="author"]').value,
+            number_title: document.querySelector('input[name="number_title"]').value,
+            number_title_language: document.querySelector('input[name="number_title_language"]').value,
+            extra_folder_link: document.querySelector('input[name="extra_folder_link"]').value,
+            extra_pdf_link: document.querySelector('input[name="extra_pdf_link"]').value,
+            review_link: document.querySelector('input[name="review_link"]').value
+        };
+
+        try {
+            const response = await fetch('https://hook.integrator.boost.space/mqntylhrehljw4p5tkxjpxj28icglsot', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
+            });
+            if (response.ok) {
+                button.innerHTML = '<i class="fas fa-check mr-2"></i>Erneut gesendet!';
+                button.classList.remove('bg-blue-600', 'hover:bg-blue-700');
+                button.classList.add('bg-green-600', 'cursor-not-allowed');
+            } else {
+                throw new Error('Resend error');
+            }
+        } catch (error) {
+            button.innerHTML = '<i class="fas fa-exclamation-triangle mr-2"></i>Fehler';
+            button.classList.remove('bg-blue-600', 'hover:bg-blue-700');
+            button.classList.add('bg-red-600');
+        } finally {
+            setTimeout(() => {
+                if (button.classList.contains('bg-green-600')) { // If success, keep it that way
+                     // No need to revert if successful
+                } else {
+                    button.innerHTML = originalText;
+                    button.disabled = false;
+                    button.classList.remove('bg-red-600');
+                    button.classList.add('bg-blue-600', 'hover:bg-blue-700');
+                }
+            }, 3000);
+        }
+    }
+
+    // Smooth scroll for CTA buttons
+    document.querySelectorAll('a[href="#leadForm"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetElement = document.getElementById('leadForm');
+            if (targetElement) {
+                // Find the form container (parent div of the form)
+                const formContainer = targetElement.parentElement;
+                formContainer.scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'center' 
+                });
+                
+                // Focus first input field after scroll
+                setTimeout(() => {
+                    const firstInput = targetElement.querySelector('input[type="text"], input[type="email"]');
+                    if (firstInput && firstInput.offsetHeight > 0) { // Check if visible
+                        firstInput.focus();
+                    }
+                }, 500); // Wait for scroll to finish
+            }
+        });
+    });
+
+    // Add CSS animations
+    const styleSheet = document.createElement('style');
+    styleSheet.textContent = `
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fadeIn {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+        .fa-spinner {
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    `;
+    document.head.appendChild(styleSheet);
+
+    // Form field validation visual feedback
+    function setupValidationListener(inputId, validationFn, errorMessageText) {
+        const inputField = document.getElementById(inputId);
+        inputField.addEventListener('blur', function() {
+            const value = this.value.trim();
+            let existingErrorMsg = this.parentNode.querySelector('.error-message');
+            
+            if (value && !validationFn(value)) {
+                this.classList.add('border-red-500', 'focus:ring-red-500');
+                this.classList.remove('border-gray-300', 'focus:ring-fuchsia-500');
+                
+                if (!existingErrorMsg) {
+                    const errorMsg = document.createElement('p');
+                    errorMsg.className = 'error-message text-red-500 text-sm mt-1';
+                    errorMsg.innerHTML = `<i class="fas fa-exclamation-circle mr-1"></i>${errorMessageText}`;
+                    this.parentNode.appendChild(errorMsg); // Append to parent, not after input
+                } else {
+                    existingErrorMsg.innerHTML = `<i class="fas fa-exclamation-circle mr-1"></i>${errorMessageText}`;
+                    existingErrorMsg.style.display = 'block';
+                }
+            } else {
+                this.classList.remove('border-red-500', 'focus:ring-red-500');
+                this.classList.add('border-gray-300', 'focus:ring-fuchsia-500');
+                if (existingErrorMsg) {
+                    existingErrorMsg.remove();
+                }
+            }
+        });
+         inputField.addEventListener('input', function() { // Remove error on input
+            let existingErrorMsg = this.parentNode.querySelector('.error-message');
+            if (existingErrorMsg) {
+                this.classList.remove('border-red-500', 'focus:ring-red-500');
+                this.classList.add('border-gray-300', 'focus:ring-fuchsia-500');
+                existingErrorMsg.remove();
+            }
+        });
+    }
+
+    setupValidationListener('email', 
+        (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email), 
+        "Bitte gib eine gültige E-Mail-Adresse ein."
+    );
+    setupValidationListener('name', 
+        (name) => name.length >= 2, 
+        "Der Name muss mindestens 2 Zeichen lang sein."
+    );
+
+    // Enhanced form submission validation (client-side before sending)
+    document.getElementById('leadForm').addEventListener('submit', function(e) {
+        let isValid = true;
+        const nameField = document.getElementById('name');
+        const emailField = document.getElementById('email');
+        
+        const name = nameField.value.trim();
+        if (name.length < 2) {
+            isValid = false;
+            nameField.classList.add('border-red-500', 'focus:ring-red-500');
+            nameField.classList.remove('border-gray-300', 'focus:ring-fuchsia-500');
+             let errorMsg = nameField.parentNode.querySelector('.error-message');
+            if (!errorMsg) {
+                errorMsg = document.createElement('p');
+                errorMsg.className = 'error-message text-red-500 text-sm mt-1';
+                nameField.parentNode.appendChild(errorMsg);
+            }
+            errorMsg.innerHTML = '<i class="fas fa-exclamation-circle mr-1"></i>Der Name muss mindestens 2 Zeichen lang sein.';
+            if(isValid) nameField.focus(); // Focus on first error
+        }
+        
+        const email = emailField.value.trim();
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            isValid = false;
+            emailField.classList.add('border-red-500', 'focus:ring-red-500');
+            emailField.classList.remove('border-gray-300', 'focus:ring-fuchsia-500');
+            let errorMsg = emailField.parentNode.querySelector('.error-message');
+            if (!errorMsg) {
+                errorMsg = document.createElement('p');
+                errorMsg.className = 'error-message text-red-500 text-sm mt-1';
+                emailField.parentNode.appendChild(errorMsg);
+            }
+            errorMsg.innerHTML = '<i class="fas fa-exclamation-circle mr-1"></i>Bitte gib eine gültige E-Mail-Adresse ein.';
+            if(isValid && name.length >= 2) emailField.focus(); // Focus on first error
+        }
+        
+        if (!isValid) {
+            e.preventDefault(); // Prevent submission if client-side validation fails
+            
+            const submitButton = this.querySelector('button[type="submit"]');
+            const originalHTML = submitButton.innerHTML; // Store full HTML
+            
+            submitButton.innerHTML = '<i class="fas fa-exclamation-triangle mr-2"></i>DATEN PRÜFEN';
+            submitButton.classList.add('bg-orange-500');
+            submitButton.classList.remove('from-pink-600', 'to-purple-600', 'bg-gradient-to-r'); // Temporarily remove gradient
+            
+            setTimeout(() => {
+                submitButton.innerHTML = originalHTML; // Restore original button HTML
+                submitButton.classList.remove('bg-orange-500');
+                submitButton.classList.add('from-pink-600', 'to-purple-600', 'bg-gradient-to-r');
+            }, 3000);
+        }
+    });
+</script>
+
+</body>
+</html>
+```
